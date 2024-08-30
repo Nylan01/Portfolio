@@ -3,7 +3,7 @@ require 'vendor/autoload.php';
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta name="author" content="Nylan Paillassa" />
         <meta name="keywords" content="Portfolio" />
