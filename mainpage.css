@@ -1,0 +1,16 @@
+body {
+    background-color: #121212;
+  }
+
+p {
+    font-family: "Copperplate", fantasy;
+    font-size: 5em;
+    /* color:#fff2f2; */
+    color:#0bf40a;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
