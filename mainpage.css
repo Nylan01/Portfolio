@@ -1,16 +1,49 @@
-body {
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    border: 10px solid purple;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .container{
+
+} */
+
+.one{
+    background-color: aquamarine;
+}
+
+.two{
+    background-color: antiquewhite;
+}
+
+.three{
+    background-color: brown;
+}
+/* body {
     background-color: #121212;
-  }
+  } */
 
 /* p {
     font-family: "Copperplate", fantasy;
     font-size: 5em;
     /* color:#fff2f2; */
 
-@font-face {
+/* @font-face {
     font-family: 'Digital-7';
     src: url('/fonts/digital-7.ttf') format('truetype');
-}
+} */
 
 #loadingmsg {
     font-family: 'Digital-7', sans-serif; /* Ajout de 'sans-serif' comme police de secours */
@@ -31,3 +64,5 @@ body {
     z-index: 100;
 
 }
+
+
