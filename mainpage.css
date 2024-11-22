@@ -1,68 +1,67 @@
+/* Réinitialisation des marges et padding par défaut */
 * {
-    margin : 0;
-    padding : 0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-
 }
 
-body{
-    border: 10px solid purple;
+/* Appliquer un style global au corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: #08090D;
+    scroll-behavior: smooth;
 }
 
+/* Style pour le logo fixe */
+.logo {
+    position: fixed;
+    top: 20px;  /* Distance du haut de la page */
+    left: 20px;  /* Distance du bord droit de la page */
+    z-index: 1000;  /* Pour être sûr que le logo est au-dessus du contenu */
+}
+
+.logo img {
+    width: 120px;  /* Ajuster la taille du logo */
+    height: auto;  /* Garde les proportions correctes */
+}
+
+/* Conteneur général */
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Chaque section occupe toute la hauteur de la fenêtre */
 section {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-/* .container{
-
-} */
-
-.one{
-    background-color: aquamarine;
-}
-
-.two{
-    background-color: antiquewhite;
-}
-
-.three{
-    background-color: brown;
-}
-/* body {
-    background-color: #121212;
-  } */
-
-/* p {
-    font-family: "Copperplate", fantasy;
-    font-size: 5em;
-    /* color:#fff2f2; */
-
-/* @font-face {
-    font-family: 'Digital-7';
-    src: url('/fonts/digital-7.ttf') format('truetype');
-} */
-
-#loadingmsg {
-    font-family: 'Digital-7', sans-serif; /* Ajout de 'sans-serif' comme police de secours */
-    color: #0bf40a;
-}
-
-.centered {
-    display: flex;
-    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
     text-align: center;
 }
 
-#preloader{
-    background: #000000;
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-
+/* Couleurs de chaque section */
+.one {
+    border: 10px solid white;
 }
 
+.two {
+    border: 10px solid blue;
+}
 
+.three {
+    border: 10px solid violet;
+}
+
+/* Style du texte dans chaque section */
+section h1 {
+    margin: 0;
+}
+/* 
+couleurs: gros texte #0BF40A
+          moyen texte #F5F1ED
+          pett texte #70798C */
