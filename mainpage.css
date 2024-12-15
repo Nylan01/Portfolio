@@ -5,12 +5,12 @@
     box-sizing: border-box;
 }
 
-/* Appliquer un style global au corps de la page */
 body {
     font-family: Arial, sans-serif;
     overflow-x: hidden;
-    background-color: #08090D;
     scroll-behavior: smooth;
+    background: #08090D; /* Couleur par défaut */
+    transition: background 0.5s ease-in-out; /* Transition douce entre les couleurs */
 }
 
 /* Style pour le logo fixe */
@@ -34,7 +34,7 @@ body {
 
 /* Chaque section occupe toute la hauteur de la fenêtre */
 section {
-    height: 100vh;
+    height: 150vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,6 +46,7 @@ section {
 
 /* Couleurs de chaque section */
 .one {
+    position: relative;
     border: 10px solid white;
 }
 
@@ -59,9 +60,26 @@ section {
 
 /* Style du texte dans chaque section */
 section h1 {
+    position: absolute;
     margin: 0;
 }
-/* 
-couleurs: gros texte #0BF40A
+
+#p1 {
+    position: absolute; /* Changer en absolute pour un positionnement précis */
+    top: 4em; /* En haut de la section */
+    right: 4em; /* À droite de la section */
+    margin: 0.8em; /* Ajoute un peu de marge pour ne pas être collé */
+}
+
+#p2{
+    position: absolute;
+    bottom: 4em;
+    left: 4em;
+    margin: 0.8em; /* Ajoute un peu de marge pour ne pas être collé */
+
+}
+
+
+/* couleurs: gros texte #0BF40A
           moyen texte #F5F1ED
-          pett texte #70798C */
+          pett texte #70798C  */

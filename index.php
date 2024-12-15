@@ -12,13 +12,14 @@
         <div class='logo'>
             <img src='./imgs/28156689_christmas_2012_new_4027.svg' alt='Logo'>
         </div>
-        <div >
+        <!-- <div >
             <a href='./test/test.html' >Aller vers la page de test</a>
-        </div>
+        </div> -->
         <div class='container'>
             <section class='section one'>
                 <h1>Page d'entrée avec l'hologramme</h1>
-                <p>Core programming</p>
+                <p id="p1">___________________]</p>
+                <p id="p2">[__________________</p>
             </section>
             <section class='section two'>
                 <h1>Page de présentation sur moi et mon travail</h1>
